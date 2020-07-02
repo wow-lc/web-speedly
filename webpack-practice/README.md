@@ -1,10 +1,18 @@
-# webpack实战： 入门、进阶、调优
+# webpack
 
-
-## webpack-dev-server
-启动一个本地服务，可以处理打包资源与静态文件的请求。
+## 相关常用插件
 ```
-npm install webpack-dev-server --save-dev
+webpack-dev-server
+启动一个本地服务，可以处理打包资源与静态文件的请求。
+html-webpack-plugin
+html模板
+clean-webpack-plugin
+清除插件
+webpack.HotModuleReplacementPlugin
+热更新加载
+mini-css-extract-plugin
+抽离css
+style-loader css-loader less less-loader node-sass sass-loader 
 ```
 
 ## entry 
