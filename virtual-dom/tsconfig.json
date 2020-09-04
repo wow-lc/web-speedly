@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "./exmaple",
+        "module": "commonjs",
+        "target": "ES3", // 编译目标
+        "noImplicitAny": true, // 是否必须设置类型
+        "sourceMap": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "removeComments": false, // 是否删除注释
+    },
+    "include": [
+        "types/*.ts",
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
